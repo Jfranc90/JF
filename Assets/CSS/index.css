@@ -1,0 +1,136 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.box
+{
+    width: 450px;
+    background: rgba(10, 9, 9, 0.623);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:white;
+    font-family: "Century-Gothic",sans-serif;
+}
+
+.box-img
+{
+    border-radius:  50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1
+{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color:white;
+}
+
+.box h5
+{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color:white;
+}
+
+.box p
+{
+    text-align: justify;
+    color: white;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.box li
+{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li p
+{
+    color:red;
+}
+
+.box li a
+{
+    color:red;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover
+{
+    color:purple;
+}
+
+.box ul p
+{
+    margin-left:50px;
+}
+
+.topnav
+{
+    background-color: black;
+    overflow: hidden;
+    height: 50px;
+}
+
+.topnav a
+{
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    color: red;
+    font-family: "Century-Gothic",sans-serif;
+}
+
+.topnav a:hover
+{
+    color:purple;
+}
+
+.navImg
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.rbox
+{
+    width: 600px;
+    background: rgba(10, 9, 9, 0.623);
+    margin:auto;
+}
+
+.sm ul li
+{
+    margin-left: 30px;
+    color:white;
+}
+
+.notice a
+{
+    color:red;
+}
+
+.notice a:hover
+{
+    color:white;
+}
+.rbox{
+    color:white;
+}

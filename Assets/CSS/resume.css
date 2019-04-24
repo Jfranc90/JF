@@ -1,0 +1,50 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.topnav
+{
+    background-color: black;
+    overflow: hidden;
+    height: 50px;
+}
+
+.topnav a
+{
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    color: red;
+    font-family: "Century-Gothic",sans-serif;
+}
+
+.topnav a:hover
+{
+    color:purple;
+}
+
+.rbox
+{
+    width: 600px;
+    background: rgba(10, 9, 9, 0.623);
+    margin:auto;
+}
+
+.rbox
+{
+    color:white;
+}
+
+.notice a
+{
+    color:red;
+}
+
+.notice a:hover
+{
+    color:white;
+}

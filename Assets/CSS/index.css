@@ -2,14 +2,14 @@ body
 {
     margin: 0;
     padding: 0;
-    background: url(background.jpg) no-repeat;
+    background: url(blackhole.gif) no-repeat;
     background-size:cover;
 }
 
 .box
 {
     width: 450px;
-    background: rgba(10, 9, 9, 0.623);
+    background: rgba(255, 255, 255, 0);
     padding: 40px;
     text-align: center;
     margin: auto;
@@ -61,12 +61,12 @@ ul
 }
 .box li p
 {
-    color:red;
+    color:white;
 }
 
 .box li a
 {
-    color:red;
+    color:white;
     text-decoration: none;
     font-size: 60px;
     transition: all ease-in-out 250ms;
@@ -94,7 +94,7 @@ ul
     font-size: 30px;
     padding: 15px;
     text-align: center;
-    color: red;
+    color: white;
     font-family: "Century-Gothic",sans-serif;
 }
 

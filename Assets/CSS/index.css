@@ -9,7 +9,7 @@ body
 .box
 {
     width: 450px;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.37);
     padding: 40px;
     text-align: center;
     margin: auto;
@@ -84,7 +84,7 @@ ul
 
 .topnav
 {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0);
     overflow: hidden;
     height: 50px;
 }

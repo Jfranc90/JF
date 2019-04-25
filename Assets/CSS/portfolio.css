@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+@-ms-viewport{
+    width: device-width;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(giphy.gif) no-repeat;
+    background-size:cover;
+}
+
+.navbar
+{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block !important;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover
+{
+    color:purple;
+    font-weight: bold;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    letter-spacing: 5px;
+    margin-right: 2rem;
+}
+
+.navbar-btn{
+    padding-inline-start: 1px !important;
+    float: right;
+    display: none;
+}
+.ham_menu {
+    width: 35px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5rem 0;
+    border-radius: 1px;
+    display: none;
+}
+
+.hidehamburger{
+    visibility:hidden;
+}
+.exit-img{
+    background-image: url(/Assets/Images/exit.png);
+    background-size: cover;
+}
+
+@media screen and (max-width:840px) {
+    .navbar-bar{
+        display: none;
+    }
+    .navbar li{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: block;
+    }
+    .ham_menu{
+        display: block !important;
+    }
+    .navbar-btn{
+        display: block;
+        margin-top: -2rem;
+    }
+    .navbar{
+        width: 100%;
+    }
+  }
+
+@media screen and (min-width:840px) {
+    .full-navbar{
+        display: block !important;
+    }
+}

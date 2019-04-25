@@ -42,10 +42,10 @@ body
 
 .notice a
 {
-    color:red;
+    color:yellow;
 }
 
 .notice a:hover
 {
-    color:white;
+    color:orange;
 }

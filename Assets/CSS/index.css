@@ -13,7 +13,7 @@ body
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    margin-top:2%;
     color:white;
     font-family: "Century-Gothic",sans-serif;
 }
@@ -133,4 +133,10 @@ ul
 }
 .rbox{
     color:white;
+}
+
+.twinkleImages
+{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }

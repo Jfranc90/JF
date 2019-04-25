@@ -30,7 +30,8 @@ body
 .rbox
 {
     width: 600px;
-    background: rgba(10, 9, 9, 0.623);
+    background: rgba(255, 255, 255, 0.37);
+    padding: 40px;
     margin:auto;
 }
 

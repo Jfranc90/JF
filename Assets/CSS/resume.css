@@ -10,27 +10,51 @@ body
     background-size:cover;
 }
 
-.topnav
+.navbar
 {
-    background-color: rgba(255, 255, 255, 0);
-    overflow: hidden;
-    height: 50px;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block !important;
 }
 
-.topnav a
-{
-    font-size: 30px;
-    padding: 15px;
-    text-align: center;
+.navbar a{
+    text-decoration: none;
     color: white;
-    font-family: "Century-Gothic",sans-serif;
 }
 
-.topnav a:hover
+.navbar a:hover
 {
     color:purple;
+    font-weight: bold;
 }
 
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    letter-spacing: 5px;
+    margin-right: 2rem;
+}
+
+.navbar-btn{
+    padding-inline-start: 1px !important;
+    float: right;
+    display: none;
+}
+.ham_menu {
+    width: 35px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5rem 0;
+    border-radius: 1px;
+    display: none;
+}
+
+.hidehamburger{
+    visibility:hidden;
+}
 .rbox
 {
     width: 600px;

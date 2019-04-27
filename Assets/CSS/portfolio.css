@@ -88,3 +88,30 @@ body
         display: block !important;
     }
 }
+
+.box
+{
+    width: 450px;
+    background: rgba(255, 255, 255, 0.37);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top:2%;
+    color:white;
+    font-family: "Century-Gothic",sans-serif;
+}
+
+
+.box h1
+{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color:white;
+}
+
+.box p
+{
+    text-align: justify;
+    color: white;
+}

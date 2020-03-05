@@ -2,10 +2,6 @@
     width: device-width;
 }
 
-img
-{
-    transform: rotate(90deg);    
-}
 
 body
 {
@@ -18,12 +14,12 @@ body
 .box
 {
     width: 450px;
-    background: rgba(255, 255, 255, 0.37);
+    background: rgba(110, 93, 93, 0.37);
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top:2%;
-    color:white;
+    color:rgba(110, 93, 93, 0.37);;
     font-family: "Century-Gothic",sans-serif;
 }
 
@@ -127,7 +123,7 @@ ul
 .ham_menu {
     width: 35px;
     height: 3px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(110, 93, 93, 0.37);
     margin: 0.5rem 0;
     border-radius: 1px;
     display: none;
@@ -166,7 +162,7 @@ ul
     color:white;
 }
 .rbox{
-    color:white;
+    color:rgba(110, 93, 93, 0.37);;
 }
 
 .twinkleImages

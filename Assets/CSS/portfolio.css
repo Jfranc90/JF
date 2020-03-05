@@ -91,10 +91,11 @@ body
 
 .box
 {
+    float: left;
     width: 450px;
-    background: rgba(255, 255, 255, 0.37);
+    background: rgba(187, 151, 151, 0.37);
     padding: 40px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     margin-top:2%;
     color:white;

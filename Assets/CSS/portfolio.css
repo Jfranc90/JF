@@ -91,9 +91,9 @@ body
 
 .box
 {
-    float: left;
-    width: 450px;
-    background: rgba(187, 151, 151, 0.37);
+    float: center;
+    width: fit-content;
+    background: rgba(110, 93, 93, 0.37);
     padding: 40px;
     text-align: left;
     margin: auto;
